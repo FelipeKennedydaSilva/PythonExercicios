@@ -4,7 +4,7 @@ media = (nota_1 + nota_2) / 2
 
 print('Resultado', end=" ")
 
-if media >= 7 and media > 10:
+if media >= 7 and media < 10:
     print('Aprovado')
 elif media == 10:
     print('Aprovado com Distinção')
